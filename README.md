@@ -12,7 +12,7 @@ whether an LLM is actually better than a simple TF-IDF + logistic regression mod
 ## Data
 [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews) (Kaggle, ~568K reviews, 1999-2012).
 Check the license on the Kaggle page before reusing. Filtered to milk / shake related
-reviews and sampled evenly across star ratings (TODO: n = ___).
+reviews and sampled evenly across star ratings (n = 500).
 
 ## Method
 1. `prepare_data.py`: filter, clean, and sample reviews.
